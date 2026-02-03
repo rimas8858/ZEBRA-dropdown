@@ -20,13 +20,14 @@ header {
 }
 
 .logo {
-    margin-left: 60px;
+    margin-left: 10%;
     font-weight: 900;
     font-size: large;
+
 }
 
 .headstext {
-    margin-right: 556px;
+    margin-right: 39%;
     font-weight: 900;
     display: flex;
     text-align: center;
@@ -86,8 +87,8 @@ header {
 .option {
     display: flex;
     flex-direction: space-between;
-    gap: 30px;
-    margin-left: 30px;
+    gap: 7%;
+    margin-left: 10%;
 }
 
 .fake-select {
