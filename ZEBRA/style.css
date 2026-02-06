@@ -23,7 +23,7 @@ header {
     margin-left: 10%;
     font-weight: 900;
     font-size: large;
-
+    padding-top: 1%;
 }
 
 .headstext {
@@ -41,6 +41,10 @@ header {
     height: 49px;
     width: 100px;
     gap: 280px;
+}
+
+.headstext2 {
+    padding-top: 4%;
 }
 
 .dropdown {
@@ -75,13 +79,13 @@ header {
     display: flex;
     flex-direction: column;
     size: 300px;
-    gap: 20px;
+    gap: 1%;
 }
 
 .fake-option {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5%;
 }
 
 .option {
@@ -98,7 +102,7 @@ header {
 
 .fake-option {
     display: flex;
-    padding-top: 10px;
+    padding-top: 10%;
 }
 
 .fake-option:hover {
