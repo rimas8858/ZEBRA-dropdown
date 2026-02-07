@@ -57,11 +57,17 @@ header {
     padding-top: 20px;
 }
 
+.headstext2:hover {
+    cursor: pointer;
+    background-color: rgba(181, 37, 37, 0.617);
+}
+
 .dropdown {
     display: flex;
     margin-top: 4.5%;
-    margin-left: 6%;
-    justify-content: center;
+    margin-left: 6.2%;
+    justify-content: space-evenly;
+    gap: 10px;
     position: absolute;
     color: whitesmoke;
     background-color: rgb(195, 0, 0);
@@ -83,7 +89,11 @@ header {
 
 .dropdown-img {
     border: 0.5px solid rgb(172, 171, 171);
-    width: 100px;
+    width: 150px;
+}
+
+.dropdown-img:hover {
+    cursor: pointer;
 }
 
 .col-two {
@@ -92,6 +102,7 @@ header {
     size: 300px;
     gap: 1%;
     width: 200px;
+    height: 200px;
 }
 
 
@@ -113,10 +124,7 @@ header {
 
 }
 
-.fake-option {}
-
 .fake-option:hover {
     background-color: rgba(71, 68, 68, 0.196);
     cursor: pointer;
-
 }
